@@ -583,7 +583,7 @@ ul.license li span {
 }
 
 .contact {
-  padding: 20px;
+  padding: 15px;
   border-radius: 15px;
   background-color: #a6aeeb;
   color: #fff;
@@ -833,6 +833,13 @@ ul.license li span {
   margin-top: -7px;
 }
 
+.contactNewBtn {
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 9px;
+  background: #5864b5;
+}
+
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .left {
@@ -851,12 +858,29 @@ ul.license li span {
     display: none;
   }
 
-  .headerRow .right {
+  .headerRow .left {
+    width: auto;
+  }
+
+  .headerRow .right img{
+    display: none;
+  }
+
+  .headerRow .right .Guo1g{
     display: none;
   }
 
   .headerRow .center .btn {
     display: none;
+  }
+
+  .headerRow .right {
+    width: auto;
+    flex-shrink: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .contentBox {
