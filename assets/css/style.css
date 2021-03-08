@@ -66,7 +66,15 @@ header {
   width: 75px;
 }
 
-.headerRow .left,
+.headerRow .left {
+  width: 300px;
+  flex-shrink: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .headerRow .right {
   width: 300px;
   flex-shrink: 0;
